@@ -1,0 +1,146 @@
+.header {
+    background-color: #003580;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 1140px;
+    margin: 10px 0 40px 0;
+}
+
+.headerContainer.listMode {
+    margin: 20px 0 20px 0;
+}
+
+.headerList {
+    display: flex;
+    gap: 40px;
+}
+
+.headerListItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerListItem>span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.headerListItem.active {
+    border: 1px solid #fff;
+    padding: 12px 15px;
+    border-radius: 20px;
+}
+
+.headerTitle {
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+.headerDesc {
+    margin: 10px 0 20px;
+    font-size: 18px;
+}
+
+.headerBtn {
+    background-color: #0071C2;
+    color: #fff;
+    border: none;
+    padding: 24px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.headerSearch {
+    height: 45px;
+    background-color: #fff;
+    border: 3px solid #fff;
+    box-shadow: 1px 1px 20px #00000010;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -35px;
+    width: 100%;
+    max-width: 1140px;
+}
+
+.headerIcon {
+    color: lightgray;
+    font-size: 20px;
+}
+
+.headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+.headerSearchInput {
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.headerSearchText {
+    color: #888;
+    cursor: pointer;
+}
+
+.date {
+    position: absolute;
+    top: 69px;
+    z-index: 2;
+}
+.options {
+    z-index: 2;
+    position: absolute;
+    top: 69px;
+    background-color: #fff;
+    color: gray;
+    padding: 10px;
+}
+.optionItem {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+.optionCounter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: #333;
+}
+
+.optionCounterButton {
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #0071C2;
+    color: #0071C2;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.optionCounterButton:disabled {
+    cursor: not-allowed;
+}

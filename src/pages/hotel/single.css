@@ -1,0 +1,163 @@
+.hotelContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+ }
+
+.hotelWrapper {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.bookNow {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: #0071C2;
+    color: #fff;
+    padding: 15px 20px;
+    font-weight: 700;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.hotelTitle {
+    font-size: 25px;;
+}
+
+.hotelAddress {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hotelDistance {
+    color: #0071C2;
+    font-weight: 500;
+}
+
+.hotelPriceHighlight {
+    color: #008009;
+    font-weight: 500;
+}
+
+.hotelImages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.hotelImgWrapper {
+    width: 33%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.hotelImg {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.hotelDetails {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.hotelDetailsTexts {
+    flex: 3;
+}
+
+.hotelDetailsPrice {
+    flex: 1;
+}
+
+.hotelDesc {
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.hotelDetailsPrice {
+    box-shadow: 1px 1px 15px #00000015;
+    padding: 25px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hotelDetailsPrice>h1 {
+    font-size: 18px;
+    color: #555;
+}
+
+.hotelDetailsPrice>h2 {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.hotelDetailsPrice b {
+    font-size: 20px;
+}
+
+.hotelDetailsPrice>button {
+    background-color: #0071C2;
+    color: #fff;
+    padding: 15px 20px;
+    font-weight: 700;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.slider {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000090;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+.sliderWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .sliderImg {
+    width: 80%;
+} */
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.arrow {
+    cursor: pointer;
+    margin: 50px;
+    font-size: 40px;
+    color: #fff;
+}

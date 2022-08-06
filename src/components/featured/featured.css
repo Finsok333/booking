@@ -1,0 +1,40 @@
+.featured {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    z-index: 1;
+}
+
+.featuredItem {
+    position: relative;
+    color: white;
+    border-radius: 3px;
+    overflow: hidden;
+    height: 250px;
+    cursor: pointer;
+}
+
+.featuredImg {
+    width: 100%;
+    object-fit: cover;
+}
+
+.featuredTitles {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.featuredTitles h1 {
+    font-size: 26px;
+    text-shadow: 1px 1px 1px #333;
+    margin-bottom: 5px;
+}
+
+.featuredTitles h2 {
+    font-size: 14px;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #333;
+}
